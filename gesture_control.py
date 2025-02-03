@@ -15,7 +15,7 @@ devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
 
-# Get volume range (-65.25 dB to 0 dB)
+# Get volume range 
 vol_min, vol_max = volume.GetVolumeRange()[:2]
 
 # Function to adjust brightness
