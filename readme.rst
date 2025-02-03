@@ -82,8 +82,6 @@ requirement).
 
 makepy
 ~~~~~~
-(NB my own experience over several systems is that this
-step isn't necessary. However, if you have problems...)
 You may have to compile makepy support for some typelibs. The following
 are reported to be significant:
 
