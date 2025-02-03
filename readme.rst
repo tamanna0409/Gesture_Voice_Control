@@ -89,4 +89,3 @@ are reported to be significant:
 
 * Microsoft WMI Scripting Library
 * WMI ADSI Extension Type Library
-* WMICntl Type Library
