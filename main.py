@@ -1,22 +1,3 @@
-'''from camera_check import check_camera
-from light_check import check_light_condition
-import gesture_control
-import voice_control
-
-def main():
-    camera_available = check_camera()
-    light_available = check_light_condition() if camera_available else False
-
-    if light_available:
-        print(" Using Hand Gesture Control")
-        gesture_control.process_hand_gestures()
-    else:
-        print("🎙 Using Voice Command Control")
-        voice_control.recognize_voice_command()
-
-if __name__ == "__main__":
-    main()'''
-
 import cv2
 import numpy as np
 from gesture_control import process_gestures
