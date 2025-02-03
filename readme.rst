@@ -90,7 +90,3 @@ are reported to be significant:
 * Microsoft WMI Scripting Library
 * WMI ADSI Extension Type Library
 * WMICntl Type Library
-
-If you've not done this before, start the PythonWin environment, select
-Tools > Com Makepy utility from the menu, select the library by name, and
-click [OK].
